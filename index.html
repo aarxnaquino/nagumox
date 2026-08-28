@@ -190,6 +190,10 @@
     .footer__contact-btn { display: inline-flex; align-items: center; gap: var(--space-2); padding: 0.65em 1.2em; border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--surface); color: var(--text); font-weight: 700; font-size: var(--text-sm); text-decoration: none; }
     .footer__contact-btn:hover { border-color: var(--accent); color: var(--accent); box-shadow: 0 0 20px var(--accent-glow); transform: translateY(-1px); }
     .footer__copy { font-size: var(--text-sm); color: var(--text-faint); }
+    .tools-section { padding: var(--space-10) 0; border-top: 1px solid var(--divider); }
+    .tools-section__label { text-align: center; font-size: var(--text-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-faint); margin-bottom: var(--space-5); }
+    .tools-section__banner { display: flex; justify-content: center; }
+    .tools-section__banner img { max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); }
 
     .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.6s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1); }
     .reveal.in { opacity: 1; transform: none; }
@@ -340,6 +344,17 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section" aria-labelledby="tools-heading">
+      <div class="container">
+        <p id="tools-heading" class="tools-section__label">Herramientas que uso en mi flujo de trabajo</p>
+        <div class="tools-section__banner">
+          <a href="https://app.proxy-cheap.com/r/PSKtouhf" target="_blank" rel="noopener sponsored">
+            <img src="https://app.proxy-cheap.com/resources/banners/970x90.png" alt="Proxy-Cheap — proxies para creación de contenido" loading="lazy" />
+          </a>
         </div>
       </div>
     </section>
